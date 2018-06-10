@@ -16,8 +16,8 @@
                     <div class="md-form">
                         <div class="md-form">
                             <p>Type de bien :</p>
-                            <select  name="type" class="col-10 form-control form-control-lg">
-                                <option>Tout selectionner</option>
+                            <select  name="type" class="col-10 form-control form-control-lg" required>
+                                <option selected></option>
                                 <option  value="appartement">appartement</option>
                                 <option  value="maison">maison</option>
                             </select>
